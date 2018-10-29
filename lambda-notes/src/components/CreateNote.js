@@ -6,6 +6,7 @@ class CreateNote extends React.Component {
     constructor() {
         super();
         this.state = {
+            //user_id will need to be dynamic after login is setup
             user_id: 1,
             title: '',
             content: '',
